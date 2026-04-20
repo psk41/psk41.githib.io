@@ -66,6 +66,7 @@ body {
     color: rgba(var(--text-color-RGB), 1);
     background-color: rgba(var(--background-color-RGB), 1);
     line-height: 1.25;
+
 }
 
 .wrapper {
@@ -151,6 +152,12 @@ h1 {
 p {
     margin: 0 0 0.2em;
     font-size: 1.1em;
+
+    @media (max-width: 768px) {
+        @media (max-width: 768px) {
+            font-size: 1.2em;
+        }
+    }
 }
 
 
@@ -167,7 +174,6 @@ p {
     @media (max-width: 768px) {
         display: flex;
         flex-direction: column;
-        /* margin-bottom: 5em; */
     }
 
     & .column {
@@ -227,7 +233,7 @@ h2 {
     font-weight: 700;
 
     @media (max-width: 768px) {
-        font-size: 1.4em;
+        font-size: 1.6em;
         margin: .6em 0 .8em;
     }
 
@@ -256,7 +262,7 @@ h2 {
 /* ========================================================== */
 
 h3 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin: 0 0 0.3em;
     font-weight: 600;
 }
@@ -345,6 +351,10 @@ a {
     color: rgba(var(--text-color-RGB), 1);
     text-decoration: none;
     transition: color 0.5s ease;
+
+    @media (max-width: 768px) {
+        font-size: 1.2em;
+    }
 }
 
 a:hover {
